@@ -49,8 +49,7 @@ body {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -216,22 +215,23 @@ body {
 
 .staff-background {
     background-color: var(--color-white-background);
-    flex-basis: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
 
 .staff-information {
-    padding: 32px 16px;;
+    padding: 32px 16px;
+    ;
     display: block;
 }
 
-.staff-name{
+.staff-name {
     text-align: center;
     margin-bottom: 8px;
 }
 
-.staff-text{
+.staff-text {
     font-style: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -260,7 +260,7 @@ body {
     color: var(--color-pressed-state);
 }
 
-.portfolio-section{
+.portfolio-section {
     padding: 96px 0 120px;
 }
 
@@ -359,7 +359,7 @@ body {
     padding: 100px 0;
 }
 
-.logo-footer{
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
