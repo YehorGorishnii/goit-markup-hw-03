@@ -61,6 +61,8 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+     padding-right: 15px
 }
 
 .header-navigation {
