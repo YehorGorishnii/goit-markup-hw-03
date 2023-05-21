@@ -46,10 +46,10 @@ body {
     background-color: var(--color-white-background);
 }
 
-
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -61,8 +61,7 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 15px;
-     padding-right: 15px
+    padding: 0 15px;
 }
 
 .header-navigation {
